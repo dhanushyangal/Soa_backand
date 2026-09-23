@@ -54,10 +54,10 @@ public class WalletService {
 	private final DodoPaymentsClient dodo;
 	private final ObjectMapper mapper;
 
-	@Value("${bidvelocity.dodo-product-id:pdt_0No8GYiVeUpU21JfBYefp}")
+	@Value("${bideasy.dodo-product-id:pdt_0No8GYiVeUpU21JfBYefp}")
 	private String productId;
 
-	@Value("${bidvelocity.dodo-return-url:http://localhost:3000/wallet}")
+	@Value("${bideasy.dodo-return-url:http://localhost:3000/wallet}")
 	private String returnUrl;
 
 	public WalletService(

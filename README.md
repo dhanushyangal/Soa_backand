@@ -1,8 +1,8 @@
-# BidVelocity backend
+# BidEasy backend
 
 Spring Boot microservices: Eureka, API gateway, auth, auctions, bidding, payments. Amounts are **INR**, stored as integer paise.
 
-Repo: https://github.com/Tharak23/soa-bidding-backend
+Repo: https://github.com/dhanushyangal/Soa_backand
 
 ---
 

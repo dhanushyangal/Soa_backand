@@ -21,7 +21,7 @@ public class InternalTokenFilter extends OncePerRequestFilter {
 
 	public static final String HEADER = "X-Internal-Token";
 
-	@Value("${bidvelocity.internal-token:}")
+	@Value("${bideasy.internal-token:}")
 	private String internalToken;
 
 	@Override

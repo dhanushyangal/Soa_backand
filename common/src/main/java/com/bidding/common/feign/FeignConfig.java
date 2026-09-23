@@ -20,7 +20,7 @@ import feign.codec.ErrorDecoder;
 
 public class FeignConfig {
 
-	@Value("${bidvelocity.internal-token:}")
+	@Value("${bideasy.internal-token:}")
 	private String internalToken;
 
 	@Bean

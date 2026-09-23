@@ -17,7 +17,7 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 @Configuration
 public class GatewaySecurityConfig {
 
-	@Value("${bidvelocity.cors-origin:http://localhost:3000}")
+	@Value("${bideasy.cors-origin:http://localhost:3000}")
 	private String corsOrigin;
 
 	@Bean

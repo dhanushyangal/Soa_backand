@@ -11,10 +11,10 @@
 	</parent>
 
 	<groupId>com.bidding</groupId>
-	<artifactId>bidvelocity</artifactId>
+	<artifactId>bideasy</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>BidVelocity</name>
+	<name>BidEasy</name>
 	<description>Real-time distributed bidding and auction clearance platform</description>
 
 	<modules>

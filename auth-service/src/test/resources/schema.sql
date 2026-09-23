@@ -1,5 +1,5 @@
 drop table if exists public.settlements, public.webhook_events, public.payments, public.ledger_entries, public.bids, public.auctions, public.wallets, public.profiles cascade;
--- BidVelocity marketplace schema
+-- BidEasy marketplace schema
 create extension if not exists pgcrypto;
 
 create table public.profiles (

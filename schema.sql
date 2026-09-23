@@ -1,4 +1,4 @@
--- BidVelocity marketplace schema
+-- BidEasy marketplace schema
 create extension if not exists pgcrypto;
 
 create table public.profiles (

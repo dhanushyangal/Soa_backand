@@ -28,7 +28,7 @@ public class DodoWebhookRegistrar {
 			try {
 				client.webhooks().create(WebhookCreateParams.builder()
 						.url(webhookUrl)
-						.description("BidVelocity wallet credits")
+						.description("BidEasy wallet credits")
 						.addFilterType(WebhookEventType.PAYMENT_SUCCEEDED)
 						.addFilterType(WebhookEventType.PAYMENT_FAILED)
 						.build());
